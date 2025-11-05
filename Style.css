@@ -1,0 +1,245 @@
+body {
+ padding: 0px;
+ margin: 0px;
+   background-color: rgb(238, 234, 234);
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  
+}
+.black{
+    width: 18vw;
+    padding: 5px;
+    margin: 5px;
+   padding-left: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    height: 95vh;
+}
+.text{
+      border-radius: 10px;
+      padding-top: 20px;
+      padding: 5px;
+    width: 16vw;
+    text-align: start;
+}
+.btn{
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    
+} 
+.btn:hover{
+    background-color: aqua;
+       display: block;
+}
+.main{
+    position: relative;
+    gap: 5px;
+    padding: 5px;
+    width: 75vw;
+    height: 93vh;
+    border-radius: 10px;
+    display: grid;
+    grid-template: 
+"heart head head right " 4vh
+"card1 card2 card3 card4 " 20vh
+"card5 card card card6" 20vh
+"foot foot foot foot" 35vh;
+}
+.heart{
+    grid-area: heart; 
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    align-items: center !important;
+}
+.right{
+ grid-area: right;
+ text-align: right;
+ margin-left: 70px;
+ display: flex;
+ flex-direction: row;
+}
+.card1{
+    margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card1;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.cen{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.img{
+     position: absolute;
+    z-index: 1;
+}
+.align{
+     padding-left:125px;
+}
+.icon1{
+    position: relative;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(15, 15, 15);
+     color: white;
+}
+.card2{
+      margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card2;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.icon2{
+     position: absolute;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(113, 217, 82);
+     color: white;
+}
+.card3{
+      margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card3;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.icon3{
+    position: absolute;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(76, 209, 214);
+     color: white;
+}
+.card4{
+  margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card4;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.icon4{
+     position: absolute;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color:rgb(68, 70, 229);
+     color: white;
+}
+.card5{
+      margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card5;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.icon5{
+     position: relative;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color:rgb(206, 179, 84);
+     color: white;
+}
+.card6{
+      margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+grid-area:card6;
+font-size: 12px;
+width:16vw;
+height: 20vh;
+border-radius: 10px; 
+margin: 20px;
+background-color: white;
+}
+.icon6{
+    position: relative;
+    z-index: 3;
+     width: 50px;
+     height: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(194, 58, 153);
+     color: white;
+}
+.foot{
+grid-area:foot; 
+width: 75vw;
+height: 40vh;
+border-radius: 10px;
+margin: 20px;
+background-color: white;
+}
+.select{
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+.heads{
+    display:flex ;
+    flex-direction: row;
+    gap:55vw;
+}
+.btn1{
+    border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+table {
+  font-size: 10px;
+  padding: 2px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
